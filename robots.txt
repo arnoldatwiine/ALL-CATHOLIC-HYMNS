@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://allcatholichymns.netlify.app/sitemap.xml
