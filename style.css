@@ -93,3 +93,35 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+/* Sitemap styles */
+.sitemap-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.sitemap-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.sitemap-btn {
+  background: var(--green);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Times New Roman", serif;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 100, 0, 0.3);
+}
+
+.sitemap-btn:hover {
+  background-color: #004d00;
+}
