@@ -125,3 +125,25 @@ footer {
 .sitemap-btn:hover {
   background-color: #004d00;
 }
+.contact-email {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: "Times New Roman", serif;
+  padding: 20px;
+}
+
+.email-link {
+  color: var(--green);
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: 2px solid var(--green);
+  padding-bottom: 2px;
+  transition: color 0.3s ease;
+}
+
+.email-link:hover {
+  color: #004d00;
+  border-color: #004d00;
+                             }
